@@ -13,6 +13,8 @@
 		8112D40A20EA100600592696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8112D40920EA100600592696 /* Assets.xcassets */; };
 		8112D40D20EA100600592696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8112D40B20EA100600592696 /* LaunchScreen.storyboard */; };
 		8112D41020EA100600592696 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8112D40F20EA100600592696 /* main.m */; };
+		8112D41820EA120600592696 /* HistoryTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8112D41720EA120600592696 /* HistoryTableTableViewController.m */; };
+		8112D41B20EA122700592696 /* LikeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8112D41A20EA122700592696 /* LikeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		8112D40C20EA100600592696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8112D40E20EA100600592696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8112D40F20EA100600592696 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8112D41620EA120600592696 /* HistoryTableTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryTableTableViewController.h; sourceTree = "<group>"; };
+		8112D41720EA120600592696 /* HistoryTableTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryTableTableViewController.m; sourceTree = "<group>"; };
+		8112D41920EA122700592696 /* LikeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikeTableViewController.h; sourceTree = "<group>"; };
+		8112D41A20EA122700592696 /* LikeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				8112D40120EA100500592696 /* AppDelegate.m */,
 				8112D40320EA100500592696 /* ViewController.h */,
 				8112D40420EA100500592696 /* ViewController.m */,
+				8112D41620EA120600592696 /* HistoryTableTableViewController.h */,
+				8112D41720EA120600592696 /* HistoryTableTableViewController.m */,
+				8112D41920EA122700592696 /* LikeTableViewController.h */,
+				8112D41A20EA122700592696 /* LikeTableViewController.m */,
 				8112D40620EA100500592696 /* Main.storyboard */,
 				8112D40920EA100600592696 /* Assets.xcassets */,
 				8112D40B20EA100600592696 /* LaunchScreen.storyboard */,
@@ -142,8 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8112D40520EA100500592696 /* ViewController.m in Sources */,
+				8112D41B20EA122700592696 /* LikeTableViewController.m in Sources */,
 				8112D41020EA100600592696 /* main.m in Sources */,
 				8112D40220EA100500592696 /* AppDelegate.m in Sources */,
+				8112D41820EA120600592696 /* HistoryTableTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

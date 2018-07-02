@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HistoryTableTableViewController.h
 //  Web_safari
 //
 //  Created by 黄乘风 on 2018/7/2.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
--(void)loadURL:(NSString *)urlStr;
+@interface HistoryTableTableViewController : UITableViewController
 
 @end
-
